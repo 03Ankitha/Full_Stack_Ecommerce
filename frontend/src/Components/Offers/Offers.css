@@ -1,0 +1,25 @@
+.offers {
+    width: 100vw; /* Full viewport width */
+    margin: 0; /* Remove any default margins */
+    padding: 0;
+    overflow: hidden; /* Ensure no overflow issues */
+  }
+.exclusive-image {
+    width: 100%; /* Span full container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image if necessary */
+  }
+
+/* ----- media query----- */
+
+
+
+
+    
+
+@media(max-width:800px){
+    
+    .offers{
+        padding: 50px 8%;
+    }
+}

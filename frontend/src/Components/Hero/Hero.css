@@ -1,0 +1,29 @@
+.hero {
+    width: 100vw; /* Full viewport width */
+    margin: 0; /* Remove any default margins */
+    padding: 0;
+    overflow: hidden; /* Ensure no overflow issues */
+  }
+
+  .hero-image {
+    width: 100%; /* Span full container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image if necessary */
+  }
+@media(max-width:1200px){
+    
+    .hero{
+        padding: 10px 6%;
+    }
+    
+   
+}
+
+
+@media(max-width:700px){
+   .hero{
+    padding: 0 10%;
+    min-height: 95vh;
+   }
+  
+}

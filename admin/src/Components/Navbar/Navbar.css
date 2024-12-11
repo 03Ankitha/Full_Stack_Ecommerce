@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 1px;
+    background: white;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+}
+.navbar-logo img {
+    width: 50px; /* Logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    } 
+}
+.navbar img {
+    width: 50px; /* Set the logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .navbar p {
+    font-size: 20px; /* Adjust font size for the text */
+    font-weight: bold; /* Make the text bold */
+    margin: 0; /* Remove any default margins */
+    
+  }
